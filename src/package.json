@@ -1,0 +1,24 @@
+{
+    "name": "@gbonnaire/sleep-tracker-js",
+    "title": "Sleep tracker JS is a component for tracking user inactivity on a web application.",
+    "description": "Sleep tracker JS is a component for tracking user inactivity on a web application. This component manages several pages opened",
+    "author": {
+        "name": "Guillaume Bonnaire <contact@gbonnaire.fr>",
+        "url": "https://repo.gbonnaire.fr"
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/GBonnaire/sleep-tracker-js.git"
+    },
+    "keywords": [
+        "sleep",
+        "activity",
+        "tracker",
+        "wake up",
+        "awakened",
+        "asleep",
+        "inactivity",
+    ],
+    "main": "index.js",
+    "version": "1.0.0"
+}
