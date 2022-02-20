@@ -1,6 +1,6 @@
 /**
  * Component Sleep Tracker
- * @version 1.0
+ * @version 1.0.1
  * @author GBonnaire <contact@gbonnaire.fr>
  * @website www.gbonnaire.fr
  * @license MIT
