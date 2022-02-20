@@ -19,6 +19,6 @@
         "asleep",
         "inactivity",
     ],
-    "main": "index.js",
+    "main": "sleeptracker.js",
     "version": "1.0.0"
 }
