@@ -32,7 +32,9 @@ You can use this CDN link
 ## NPM
 npm install @guillaumebonnaire/sleep-tracker-js
 
+```javascript
 import sleepTracker from '@guillaumebonnaire/sleep-tracker-js';
+```
 
 # Documentation
 
