@@ -1,5 +1,5 @@
 {
-    "name": "@gbonnaire/sleep-tracker-js",
+    "name": "@guillaumebonnaire/sleep-tracker-js",
     "title": "Sleep tracker JS is a component for tracking user inactivity on a web application.",
     "description": "Sleep tracker JS is a component for tracking user inactivity on a web application. This component manages several pages opened",
     "author": {
@@ -17,7 +17,7 @@
         "wake up",
         "awakened",
         "asleep",
-        "inactivity",
+        "inactivity"
     ],
     "main": "sleeptracker.js",
     "version": "1.0.0"

@@ -22,6 +22,18 @@ sleepTrackerInstance.on("asleep", function() {
 });
 ```
 
+## CDN
+You can use this CDN link
+
+```HTML
+<script src="https://cdn.jsdelivr.net/gh/GBonnaire/sleep-tracker-js@latest/dist/sleeptracker.min.js"></script>
+```
+
+## NPM
+npm install @guillaumebonnaire/sleep-tracker-js
+
+import sleepTracker from '@guillaumebonnaire/sleep-tracker-js';
+
 # Documentation
 
 ## Options of component
@@ -146,37 +158,37 @@ sleepTrackerInstance.on("asleep", function() {
 	<tbody>
 		<tr>
 			<td><code>asleep</code></td>
-			<td>Triggerd when user is asleep</td>
+			<td>Triggered when user is asleep</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
         <tr>
 			<td><code>beforeasleep</code></td>
-			<td>Triggerd some minutes before time out will be trigger</td>
+			<td>Triggered some minutes before time out will be trigger</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
         <tr>
 			<td><code>wakeup</code></td>
-			<td>Triggerd when user is wakeup (before asleep)</td>
+			<td>Triggered when user is wakeup (before asleep)</td>
 			<td><code>function (Object: component)</code></td>            
 		</tr>
         <tr>
 			<td><code>awake</code></td>
-			<td>Triggerd when user is awake (activity)</td>
+			<td>Triggered when user is awake (activity)</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
         <tr>
 			<td><code>awakened</code></td>
-			<td>Triggerd when user is awakened (trigger is beforeasleep is triggered)</td>
+			<td>Triggered when user is awakened (trigger is beforeasleep is triggered)</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
         <tr>
 			<td><code>init</code></td>
-			<td>Triggerd when component is init</td>
+			<td>Triggered when component is init</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
         <tr>
 			<td><code>load</code></td>
-			<td>Triggerd when component is loaded</td>
+			<td>Triggered when component is loaded</td>
 			<td><code>function (Object: component)</code></td>
 		</tr>
 	</tbody>
