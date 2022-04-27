@@ -9,16 +9,16 @@ const sleepTrackerInstance = sleepTracker({
     delayCallAwake: 10
 });
 sleepTrackerInstance.on("beforeasleep", function() {
-    // Open modal to ask if user is awake ! If ok call sleepTrackerInstance.awake();
+    // Your code to open modal to ask if user is awake ! If ok call sleepTrackerInstance.awake();
 });
 sleepTrackerInstance.on("awakened", function() {
-    // User indicate on other page he awake. If modal is open, you can close it
+    // Your code after user indicate on other page he awake. If modal is open, you can close it
 });
 sleepTrackerInstance.on("awake", function() {
-    // Execute code to indicate to the server user is awake
+    // Your code to execute after to indicate to the server user is awake
 });
 sleepTrackerInstance.on("asleep", function() {
-    // Execute code because user is asleep. example logout, black screen, ...
+    // Your code to execute because user is asleep. example logout, black screen, ...
 });
 ```
 
