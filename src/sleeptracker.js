@@ -1,6 +1,6 @@
 /**
  * Component Sleep Tracker
- * @version 1.0.1
+ * @version 1.0.2
  * @author GBonnaire <contact@gbonnaire.fr>
  * @website www.gbonnaire.fr
  * @license MIT
@@ -22,6 +22,7 @@
         let siCheck;
         let lastMinutesASleep;
         let beforeAsleepExecuted = false;
+        let localStorage = -1;
 
         // Options
         // Set options
@@ -234,7 +235,11 @@
          * @private
          */
         const updateDateWakedUp = function() {
-            window.localStorage.setItem(app.options.keyStorage,  Date.now());
+            try {
+                window.localStorage.setItem(app.options.keyStorage,  Date.now());
+            } catch(e) {
+                localStorage = Date.now();
+            }
         }
 
         /**
@@ -242,7 +247,11 @@
          * @private
          */
         const resetDateWakedUp = function() {
-            window.localStorage.setItem(app.options.keyStorage,  -1);
+            try {
+                window.localStorage.setItem(app.options.keyStorage,  -1);
+            } catch(e) {
+                localStorage = -1;
+            }
         }
 
         /**
@@ -251,7 +260,11 @@
          * @returns int
          */
         const getDateWakedUp = function() {
-            return window.localStorage.getItem(app.options.keyStorage);
+            try {
+                return window.localStorage.getItem(app.options.keyStorage);
+            } catch(e) {
+                return localStorage;
+            }
         }
 
         /**
