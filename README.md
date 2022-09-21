@@ -25,6 +25,8 @@ sleepTrackerInstance.on("asleep", function() {
 ## CDN
 You can use this CDN link
 
+[![](https://data.jsdelivr.com/v1/package/gh/GBonnaire/sleep-tracker-js/badge)](https://www.jsdelivr.com/package/gh/GBonnaire/sleep-tracker-js)
+
 ```HTML
 <script src="https://cdn.jsdelivr.net/gh/GBonnaire/sleep-tracker-js@latest/dist/sleeptracker.min.js"></script>
 ```
